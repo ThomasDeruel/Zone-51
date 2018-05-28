@@ -38,7 +38,7 @@ var chapter = localStorage.getItem('chapter');
   if (chapter === null) {
     chapter = {
       index:0,
-      current:['prologue','chap1','chap2','chap3']
+      current:['prologue','chap1','chap2','chap3','chap4','chap5','chap6']
     };
     var string_chapter = JSON.stringify(chapter);
     localStorage.setItem("chapter", string_chapter);
@@ -240,7 +240,7 @@ if(currentMusique !== memoMusique){
 }
 
 function trigger(){
-  switch(triggerChapter){
+  /*switch(triggerChapter){
     case 'chap1':
     chapter.index = 1;
 
@@ -270,19 +270,14 @@ function trigger(){
     indexChapter = chapter.index;
     memoChapter = chapter.current[chapter.index];
     break;
-  }
+  }*/
   // CHOICE :))))))
 
   if(currentChoice !== undefined){
     //si j'ai un choix le jeu est en pause
-    isPaused = true;
-    if(poster === true){
-      poster = false;
-      while (choice.firstChild) {
-        choice.removeChild(choice.firstChild);
-      }
-      // mes choix précédents sont effacés
-    }
+    resetChoice()
+    // mes choix précédents sont effacés
+
     // j'ai un choix
     for (var i = 0; i < currentChoice.length; i++) {
       if(currentChoice[i] !== undefined){
@@ -300,22 +295,46 @@ function trigger(){
         arrayChoices[i].addEventListener('click',function(){
           const val = this.textContent;
           switch(val){
+
             case "chap1":
+            chapter.index = 1;
+            choiceUpdate();
+            resetChoice();
             console.log('le CHAPITRE 1');
             break;
+
             case "chap2":
+            chapter.index = 2;
+            choiceUpdate();
+            resetChoice();
             console.log('le CHAPITRE 2');
             break;
+
             case "chap3":
+            chapter.index = 3;
+            choiceUpdate();
+            resetChoice();
             console.log('le CHAPITRE 3');
             break;
+
             case "chap4":
+            chapter.index = 4;
+            choiceUpdate();
+            resetChoice();
             console.log('le CHAPITRE 4');
             break;
+
             case "chap5":
+            chapter.index = 5;
+            choiceUpdate();
+            resetChoice();
             console.log('le CHAPITRE 5');
             break;
+
             case "chap6":
+            chapter.index = 6;
+            choiceUpdate();
+            resetChoice();
             console.log('le CHAPITRE 6');
             break;
           }
@@ -325,10 +344,27 @@ function trigger(){
   }
   else{
     //reset si y a rien
-    isPaused = false;
+    resetChoice()
+  }
+}
+function resetChoice(){
+  isPaused = false;
+  if(poster === true){
     poster = false;
     while (choice.firstChild) {
       choice.removeChild(choice.firstChild);
     }
   }
+}
+function choiceUpdate(){
+  string_page = JSON.stringify(page);
+  localStorage.setItem("page", string_page);
+  localStorage.setItem("page", parseInt(0));
+
+  string_chapter =  JSON.stringify(chapter);
+  localStorage.setItem("chapter", string_chapter);
+
+  indexPage = localStorage.getItem('page');
+  indexChapter = chapter.index;
+  memoChapter = chapter.current[chapter.index];
 }
