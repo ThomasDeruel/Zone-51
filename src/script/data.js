@@ -19,6 +19,8 @@ var book = {
     scene2:undefined,
     text:". . .",
     name:'Moi',
+    choice:['chap1','chap2']
+
   },{
     musique:'sound/ambiance/heart1.wav',
     ambience:undefined,
@@ -27,7 +29,8 @@ var book = {
     scene1:undefined,
     scene2:undefined,
     text:". . . . .",
-    name:'Moi'
+    name:'Moi',
+    choice:['chap4','chap5','chap6']
   },{
    musique:'sound/ambiance/heart1.wav',
    ambience:undefined,

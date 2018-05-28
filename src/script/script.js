@@ -11,6 +11,7 @@ var ui = {
     canvas:document.querySelector('#canvas'),
     menuBtn:document.querySelector('.btnmenu'),
     leave:document.querySelector('.leave'),
+    choice:document.querySelector('#choice'),
     musique: {
         range:document.querySelector('.musique-range'),
         val:document.querySelector('.musique-value'),
@@ -52,6 +53,8 @@ var memoChapter = chapter.current[chapter.index];
 var currentPage = "";
 var currentName = "";
 var currentChapter =[];
+var currentChoice = [];
+var poster = false;
 var isPaused = false;
 var time= 0;
 var memoMusique;
@@ -67,16 +70,15 @@ var triggerChapter = "";
 
 
     chapterUpdate();
+    trigger();
     textFluid();
     window.addEventListener('click', function(){
-
             general();
             trigger();
     })
 
     window.addEventListener('keyup', function (event) {
         if (event.which === 32) {
-
             general();
             trigger();
         }
@@ -90,7 +92,6 @@ function general(){
     if(isPaused === false){
      time=0;
      ui.text.textContent="";//text reset (for animation)
-
      clearAll();
      nextPage(currentChapter);
      textFluid();
@@ -138,7 +139,6 @@ function nextPage(mypage){
     if(indexPage < (mypage.length)-1){
       if(fullText === false){
         indexPage++;
-
         memoMusique= mypage[localStorage.getItem('page')].musique;
         chapterUpdate();
         localStorage.setItem('page',parseInt(localStorage.getItem('page'))+1);
@@ -169,6 +169,7 @@ function chapterUpdate(){
     currentBg = book.prologue[localStorage.getItem('page')].bg;
     currentMusique = book.prologue[localStorage.getItem('page')].musique;
     triggerChapter = book.prologue[localStorage.getItem('page')].goto;
+    currentChoice = book.prologue[localStorage.getItem('page')].choice;
     currentChapter = book.prologue;
 
     break;
@@ -178,6 +179,7 @@ function chapterUpdate(){
     currentBg = book.chapitre1[localStorage.getItem('page')].bg;
     currentMusique = book.chapitre1[localStorage.getItem('page')].musique;
     triggerChapter = book.chapitre1[localStorage.getItem('page')].goto;
+    currentChoice = book.chapitre1[localStorage.getItem('page')].choice;
     currentChapter = book.chapitre1;
     break;
     case 'chap2':
@@ -185,6 +187,7 @@ function chapterUpdate(){
     currentName = book.chapitre2[localStorage.getItem('page')].name;
     currentBg = book.chapitre2[localStorage.getItem('page')].bg;
     currentMusique = book.chapitre2[localStorage.getItem('page')].musique;
+    currentChoice = book.chapitre2[localStorage.getItem('page')].choice;
     currentChapter = book.chapitre2;
     break;
     case 'chap3':
@@ -192,6 +195,7 @@ function chapterUpdate(){
     currentName = book.chapitre3[localStorage.getItem('page')].name;
     currentBg = book.chapitre3[localStorage.getItem('page')].bg;
     currentMusique = book.chapitre3[localStorage.getItem('page')].musique;
+    currentChoice = book.chapitre3[localStorage.getItem('page')].choice;
     currentChapter = book.chapitre3;
     break;
     case 'chap4':
@@ -199,6 +203,7 @@ function chapterUpdate(){
     currentName = book.chapitre4[localStorage.getItem('page')].name;
     currentBg = book.chapitre4[localStorage.getItem('page')].bg;
     currentMusique = book.chapitre4[localStorage.getItem('page')].musique;
+    currentChoice = book.chapitre4[localStorage.getItem('page')].choice;
     currentChapter = book.chapitre4;
     break;
   };
@@ -265,6 +270,65 @@ function trigger(){
     indexChapter = chapter.index;
     memoChapter = chapter.current[chapter.index];
     break;
+  }
+  // CHOICE :))))))
 
+  if(currentChoice !== undefined){
+    //si j'ai un choix le jeu est en pause
+    isPaused = true;
+    if(poster === true){
+      poster = false;
+      while (choice.firstChild) {
+        choice.removeChild(choice.firstChild);
+      }
+      // mes choix précédents sont effacés
+    }
+    // j'ai un choix
+    for (var i = 0; i < currentChoice.length; i++) {
+      if(currentChoice[i] !== undefined){
+        poster = true;
+        console.log('la valeur '+ i+ ' n\'est pas undefined')//creer une div
+        var newDiv = document.createElement("div");
+        newDiv.classList.add('choice-items');
+        newDiv.textContent = currentChoice[i];
+        choice.appendChild(newDiv);
+      }
+    }
+    if(choice.childNodes !== undefined || choice.childNodes !== null){
+      var arrayChoices = choice.childNodes;
+      for (var i = 0; i < arrayChoices.length; i++) {
+        arrayChoices[i].addEventListener('click',function(){
+          const val = this.textContent;
+          switch(val){
+            case "chap1":
+            console.log('le CHAPITRE 1');
+            break;
+            case "chap2":
+            console.log('le CHAPITRE 2');
+            break;
+            case "chap3":
+            console.log('le CHAPITRE 3');
+            break;
+            case "chap4":
+            console.log('le CHAPITRE 4');
+            break;
+            case "chap5":
+            console.log('le CHAPITRE 5');
+            break;
+            case "chap6":
+            console.log('le CHAPITRE 6');
+            break;
+          }
+        })
+      }
+    }
+  }
+  else{
+    //reset si y a rien
+    isPaused = false;
+    poster = false;
+    while (choice.firstChild) {
+      choice.removeChild(choice.firstChild);
+    }
   }
 }
