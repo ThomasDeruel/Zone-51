@@ -17,8 +17,10 @@ var book = {
     image:undefined,
     scene1:undefined,
     scene2:undefined,
-    text:". . .",
+    text:"Que faire ?",
     name:'Moi',
+    choice:['chap1','chap2']
+
   },{
     musique:'sound/ambiance/heart1.wav',
     ambience:undefined,
@@ -27,7 +29,8 @@ var book = {
     scene1:undefined,
     scene2:undefined,
     text:". . . . .",
-    name:'Moi'
+    name:'Moi',
+    choice:['chap4','chap5','chap6']
   },{
    musique:'sound/ambiance/heart1.wav',
    ambience:undefined,
@@ -818,7 +821,7 @@ name:undefined,
     image:undefined,
     scene1:undefined,
     scene2:undefined,
-    text:'.........',
+    text:'2',
     name:'Moi'
   },{
     musique:'sound/ambiance/wind.wav',
@@ -827,7 +830,7 @@ name:undefined,
     image:undefined,
     scene1:undefined,
     scene2:undefined,
-    text:'Humm ...',
+    text:'3',
     name:'Moi'
   },{
     musique:'sound/ambiance/wind.wav',
@@ -943,37 +946,96 @@ name:undefined,
   }],
   //CHAPITRE3
   chapitre3 : [{
-    image:undefined,
-    musique:'sound/ambiance/heart1.wav',
+    musique:'sound/ambiance/wind.wav',
     ambience:undefined,
-    text:'ceci est un test',
-  },
-   {
+    bg:undefined,
     image:undefined,
-    musique:'sound/ambiance/heart1.wav',
-    ambience:undefined,
-    text:"lol"
+    scene1:undefined,
+    scene2:undefined,
+    text:'Chapitre3',
+    name:'Moi',
   },{
+    musique:'sound/ambiance/wind.wav',
+    ambience:undefined,
+    bg:undefined,
     image:undefined,
+    scene1:undefined,
+    scene2:undefined,
+    text:'Chapitr3',
+    name:'Moi',
+  },{
+    musique:'sound/ambiance/wind.wav',
+    ambience:undefined,
+    bg:undefined,
+    image:undefined,
+    scene1:undefined,
+    scene2:undefined,
+    text:'Chapitr3',
+    name:'Moi',
+  },{
+    musique:'sound/ambiance/wind.wav',
+    ambience:undefined,
+    bg:undefined,
+    image:undefined,
+    scene1:undefined,
+    scene2:undefined,
+    text:'Chapitr3',
+    name:'Moi',
+  },{
+    musique:'sound/ambiance/wind.wav',
+    ambience:undefined,
+    bg:undefined,
+    image:undefined,
+    scene1:undefined,
+    scene2:undefined,
+    text:'Chapitr3',
+    name:'Moi',
+  },{
+    musique:'sound/ambiance/wind.wav',
+    ambience:undefined,
+    bg:undefined,
+    image:undefined,
+    scene1:undefined,
+    scene2:undefined,
+    text:'Chapitr3',
+    name:'Moi',
+  },{
+    musique:'sound/ambiance/wind.wav',
+    ambience:undefined,
+    bg:undefined,
+    image:undefined,
+    scene1:undefined,
+    scene2:undefined,
+    text:'Chapitr3',
+    name:'Moi',
+  },{
     musique:'sound/ambiance/heart1.wav',
     ambience:undefined,
-    text:"hihi"
+    bg:undefined,
+    image:undefined,
+    scene1:undefined,
+    scene2:undefined,
+    text:'Chapitr3',
+    name:'Moi',
   },{
-   image:undefined,
-   musique:'sound/ambiance/heart1.wav',
-   ambience:undefined,
-   text:"XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD"
- },{
-  image:undefined,
-  musique:'sound/ambiance/heart1.wav',
-  ambience:undefined,
-  text:"noob"},
-  {
-  image:undefined,
-  musique:'sound/ambiance/heart1.wav',
-  ambience:undefined,
-  text:'tu es pathétique'
-  }]
+    musique:'sound/ambiance/heart1.wav',
+    ambience:undefined,
+    bg:undefined,
+    image:undefined,
+    scene1:undefined,
+    scene2:undefined,
+    text:'Chapitr3',
+    name:'Moi',
+  },{
+    musique:'sound/ambiance/heart1.wav',
+    ambience:undefined,
+    bg:undefined,
+    image:undefined,
+    scene1:undefined,
+    scene2:undefined,
+    text:'Chapitr3',
+    name:'Moi',
+  }],
 };
 //console.log("chapitre 1 currentpage[0]:"+book.chapitre1[0]+". currentchapter: "+book.chapitre1)
 //console.log(book.prologue)

@@ -269,6 +269,9 @@ input[type=range]:focus::-ms-fill-upper {
   left:50%;
   height:50%;
   transform: translate(-50%,-25%);
+
+}
+#choice.show{
   display:none;
 }
 .choice-items{

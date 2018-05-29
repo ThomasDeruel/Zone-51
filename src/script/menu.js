@@ -15,15 +15,20 @@ ui.menuBtn.addEventListener('click',function(){
     }
 })
 ui.leave.addEventListener('click', function(){
+  if(currentChoice !== undefined){
+    isPaused = true;
+  }
+  else{
     isPaused = false;
-    if(pause.className === "off"){
-        ui.pause.className="on";
-        ui.canvas.className="canvas";
-    }
-    else{
-        ui.pause.className="off";
-        ui.canvas.className="off";
-    }
+  }
+  if(pause.className === "off"){
+    ui.pause.className="on";
+    ui.canvas.className="canvas";
+  }
+  else{
+    ui.pause.className="off";
+    ui.canvas.className="off";
+  }
 })
 ui.musique.range.addEventListener('input',function(){
     ui.musique.val.textContent = ui.musique.range.value +'/100';
