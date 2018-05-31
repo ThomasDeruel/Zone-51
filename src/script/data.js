@@ -1,4 +1,3 @@
-var neufneuf ='<b>XD</b>';
 var book = {
   //PROLOGUE
   prologue : [{
@@ -12,28 +11,27 @@ var book = {
     name:'Moi'
   },
    {
-    musique:'sound/ambiance/heart1.wav',
+    musique:"",
     ambience:undefined,
     bg:"img/prologue/hospital.jpg",
     image:undefined,
     scene1:undefined,
     scene2:undefined,
-    text:"Que faire ?",
-    name:'Moi',
-    choice:['chap1','chap2']
+    text:". . .",
+    name:'Moi'
 
   },{
-    musique:'sound/ambiance/heart1.wav',
+    musique:"",
     ambience:undefined,
     bg:undefined,
     image:undefined,
     scene1:undefined,
     scene2:undefined,
     text:". . . . .",
-    name:'Moi',
-    choice:['chap4','chap5','chap6']
+    name:'Moi'
+    /*choice:['chap4','chap5','chap6']*/
   },{
-   musique:'sound/ambiance/heart1.wav',
+     musique:"sound/musique/Audiobinger_-_My_Downfall.mp3",
    ambience:undefined,
    bg:'img/prologue/hospital.jpg',
    image:undefined,
@@ -42,7 +40,7 @@ var book = {
    text:"Humm ........",
    name:"Moi"
  },{
-  musique:'sound/ambiance/heart1.wav',
+  musique:"",
   ambience:undefined,
   bg:'img/prologue/hospital.jpg',
   image:undefined,
@@ -52,17 +50,17 @@ var book = {
   name:"Moi"
  },
   {
-  musique:'sound/ambiance/heart1.wav',
+  musique:"",
   ambience:undefined,
   bg:'img/prologue/hospital.jpg',
   image:undefined,
   scene1:undefined,
   scene2:undefined,
-  text:'Mais ... Où suis-je ?',
+  text:'(Mais ... Où suis-je ?)',
   name:'Moi'
 },
 {
-musique:'sound/ambiance/heart1.wav',
+musique:"",
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -78,7 +76,7 @@ bg:'img/prologue/hospital.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
-text:'(Mon corps ... ne répond plus ... Que ce passe-t-il ?)',
+text:'(Mon corps ... ne répond plus ... Que se passe-t-il ?)',
 name:'Moi'
 },
 {
@@ -88,7 +86,7 @@ bg:'img/prologue/hospital.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
-text:'(Et pourquoi suis-je ligoté ?)',
+text:'(Et pourquoi suis-je ligoté sur un lit?)',
 name:'Moi'
 },
 {
@@ -99,7 +97,7 @@ image:undefined,
 scene1:undefined,
 scene2:undefined,
 text:'Docteur ! Le patient est reveillé !',
-name:'Médecin'
+name:'Inconnu'
 },
 {
 musique:'sound/ambiance/heart1.wav',
@@ -148,7 +146,7 @@ bg:'img/prologue/hospital.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
-text:"Attendez ... Qui êtes-vous ...",
+text:"Attendez ... Qui êtes-vous ?",
 name:'Moi'
 },
 {
@@ -158,7 +156,7 @@ bg:'img/prologue/hospital.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
-text:"Dîtes moi ... Où je suis ?",
+text:"Dîtes moi !?",
 name:'Moi'
 },
 {
@@ -168,7 +166,7 @@ bg:'img/prologue/hospital.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
-text:"Pourquoi suis-je attaché ?",
+text:"Et pourquoi suis-je attaché ?",
 name:'Moi'
 },
 {
@@ -178,7 +176,7 @@ bg:'img/prologue/hospital.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
-text:"Cesse de poser des questions et rendore toi.",
+text:"*Soupir* ...",
 name:'Médecin'
 },
 {
@@ -188,7 +186,27 @@ bg:'img/prologue/hospital.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
-text:"Non ... Ne vous approchez pas de moi avec ça ... Pitié.",
+text:"Mieux vaut pas que tu le saches mon garçon !",
+name:'Médecin'
+},
+{
+musique:'sound/ambiance/heart1.wav',
+ambience:undefined,
+bg:'img/prologue/hospital.jpg',
+image:undefined,
+scene1:undefined,
+scene2:undefined,
+text:"Le vieux médecin, sort de sa poche une longue seringue et s'approche vers le jeune",
+name:undefined
+},
+{
+musique:'sound/ambiance/heart1.wav',
+ambience:undefined,
+bg:'img/prologue/hospital.jpg',
+image:undefined,
+scene1:undefined,
+scene2:undefined,
+text:"Non ... Ne vous approchez pas de moi avec ça ... Pitié !!",
 name:'Moi'
 },
 {
@@ -198,13 +216,13 @@ bg:'img/prologue/hospital.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
-text:"!!!",
+text:"Ghh !!!",
 name:'Moi'
 },
 {
 musique:'sound/ambiance/heart1.wav',
 ambience:undefined,
-bg:undefined,
+bg:'img/prologue/hospital2.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
@@ -214,7 +232,7 @@ name:'Moi'
 {
 musique:'sound/ambiance/heart1.wav',
 ambience:undefined,
-bg:undefined,
+bg:'img/prologue/hospital2.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
@@ -224,7 +242,7 @@ name:'Médecin'
 {
 musique:'sound/ambiance/heart1.wav',
 ambience:undefined,
-bg:undefined,
+bg:'img/prologue/hospital2.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
@@ -234,7 +252,7 @@ name:'Docteur'
 {
 musique:'sound/ambiance/heart1.wav',
 ambience:undefined,
-bg:undefined,
+bg:'img/prologue/hospital3.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
@@ -244,7 +262,7 @@ name:'Médecin'
 {
 musique:'sound/ambiance/heart1.wav',
 ambience:undefined,
-bg:undefined,
+bg:'img/prologue/hospital3.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
@@ -254,7 +272,7 @@ name:'Docteur'
 {
 musique:'sound/ambiance/heart1.wav',
 ambience:undefined,
-bg:undefined,
+bg:'img/prologue/hospital3.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
@@ -264,7 +282,7 @@ name:'Docteur'
 {
 musique:'sound/ambiance/heart1.wav',
 ambience:undefined,
-bg:undefined,
+bg:'img/prologue/hospital3.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
@@ -273,8 +291,8 @@ name:'Docteur'
 },
 {
 musique:'sound/ambiance/heart1.wav',
-ambience:undefined,
-bg:undefined,
+ambience:'sound/ambiance/siren.mp3',
+bg:'img/prologue/hospital4.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
@@ -282,9 +300,9 @@ text:"Quelle ironie ... Ca doit être notre punition après tout.",
 name:'Docteur'
 },
 {
-musique:'sound/ambiance/siren.mp3',
-ambience:'sound/ambiancesiren.mp3',
-bg:undefined,
+musique:'sound/ambiance/heart1.wav',
+ambience:'sound/ambiance/siren.mp3',
+bg:'img/prologue/hospital4.jpg',
 image:undefined,
 scene1:undefined,
 scene2:undefined,
@@ -292,8 +310,8 @@ text:undefined,
 name:undefined
 },
 {
-musique:'sound/ambiance/siren.mp3',
-ambience:undefined,
+musique:'sound/ambiance/heart1.wav',
+ambience:'sound/ambiance/siren.mp3',
 bg:undefined,
 image:undefined,
 scene1:undefined,
@@ -302,8 +320,8 @@ text:"!!!",
 name:'Médecin'
 },
 {
-musique:'sound/ambiance/siren.mp3',
-ambience:undefined,
+musique:'sound/ambiance/heart1.wav',
+ambience:'sound/ambiance/siren.mp3',
 bg:undefined,
 image:undefined,
 scene1:undefined,
@@ -312,18 +330,18 @@ text:"C'était quoi ?",
 name:'Médecin'
 },
 {
-musique:'sound/ambiance/siren.mp3',
-ambience:undefined,
+musique:'sound/ambiance/heart1.wav',
+ambience:'sound/ambiance/siren.mp3',
 bg:undefined,
 image:undefined,
 scene1:undefined,
 scene2:undefined,
-text:"Les humanoïdes ...",
+text:" ... Les humanoïdes ...",
 name:'Docteur'
 },
 {
-musique:'sound/ambiance/siren.mp3',
-ambience:undefined,
+musique:'sound/ambiance/heart1.wav',
+ambience:'sound/ambiance/siren.mp3',
 bg:undefined,
 image:undefined,
 scene1:undefined,
@@ -332,8 +350,8 @@ text:"Putain !! Même ici !",
 name:'Médecin'
 },
 {
-musique:'sound/ambiance/siren.mp3',
-ambience:undefined,
+musique:'sound/ambiance/heart1.wav',
+ambience:'sound/ambiance/siren.mp3',
 bg:undefined,
 image:undefined,
 scene1:undefined,
@@ -342,15 +360,16 @@ text:"Dépéchez-vous, administez lui le serum de N°99.",
 name:'Docteur'
 },
 {
-musique:'sound/ambiance/siren.mp3',
-ambience:undefined,
+musique:'sound/ambiance/heart1.wav',
+ambience:'sound/ambiance/siren.mp3',
 bg:undefined,
 image:undefined,
 scene1:undefined,
 scene2:undefined,
-text:"Oui docteur",
-name:'Médecin'
-},
+text:"Oui docteur ...",
+name:'Médecin',
+goto:'chap1'
+}/*,
 {
 musique:'sound/ambiance/siren.mp3',
 ambience:undefined,
@@ -801,14 +820,14 @@ scene1:undefined,
 scene2:undefined,
 text:"",
 name:undefined,
-}
+}*/
 ],
 // PROLOGUE FINI //
 // ------------- //
 // CHAPITRE 1  //
   chapitre1 : [{
     musique:'sound/ambiance/wind.wav',
-    ambience:undefined,
+    musique:'sound/ambiance/wind.wav',
     bg:"https://globeattraction.files.wordpress.com/2018/03/p1019557.jpg?w=2560&h=1200&crop=1",
     image:undefined,
     scene1:undefined,
@@ -1036,7 +1055,7 @@ name:undefined,
     scene2:undefined,
     text:'Chapitr3',
     name:'Moi',
-  }],
+  }]
 };
 //console.log("chapitre 1 currentpage[0]:"+book.chapitre1[0]+". currentchapter: "+book.chapitre1)
 //console.log(book.prologue)

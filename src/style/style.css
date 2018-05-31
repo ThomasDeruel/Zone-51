@@ -4,6 +4,11 @@
     margin:0;
     padding:0;
 }
+::selection, ::-moz-selection { /* Code for Firefox */
+    color: none;
+    background: none;
+}
+
 button{
     position:fixed;
     z-index:2;
@@ -40,7 +45,7 @@ button{
 .text-container-tchat{
     word-wrap: break-word;
     color:white;
-    width:920px;
+    width:auto;
 }
 
 /* menu */

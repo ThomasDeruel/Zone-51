@@ -6,12 +6,13 @@ var ui = {
     bg:document.querySelector('.bg'),
     button:document.querySelector('button'),
     music:document.querySelector('music'),
-    ambient:document.querySelector('button'),
+    ambience:document.querySelector('button'),
     pause:document.querySelector('#pause'),
     canvas:document.querySelector('#canvas'),
     menuBtn:document.querySelector('.btnmenu'),
     leave:document.querySelector('.leave'),
     choice:document.querySelector('#choice'),
+    retry:document.querySelector('.retry'),
     musique: {
         range:document.querySelector('.musique-range'),
         val:document.querySelector('.musique-value'),
@@ -54,13 +55,19 @@ var currentPage = "";
 var currentName = "";
 var currentChapter =[];
 var currentChoice = [];
+var currentMusique;
+var currentAmbience;
+var currentBg ="";
 var poster = false;
 var next = true;
 var isPaused = false;
 var time= 0;
 var memoMusique;
+var memoAmbience;
 var fullText = false;
 var triggerChapter = "";
+var timerf;
+var memo;
 
 //var currentPage = book.prologue[localStorage.getItem('page')];
 
@@ -73,17 +80,25 @@ var triggerChapter = "";
     chapterUpdate();
     trigger();
     textFluid();
-    window.addEventListener('click', function(){
-            general();
-            trigger();
-    })
+    if(isPaused === false){
+      window.addEventListener('click', function(){
+              general();
+              trigger();
+      })
 
-    window.addEventListener('keyup', function (event) {
-        if (event.which === 32) {
-            general();
-            trigger();
-        }
-    })
+      window.addEventListener('keyup', function (event) {
+          if (event.which === 32) {
+              general();
+              trigger();
+          }
+      })
+    }
+    else{
+      isPaused = false;
+      chapterUpdate();
+      trigger();
+      textFluid();
+    }
 
 
 /////////////////
@@ -120,7 +135,7 @@ function timer(){
       fullText = true;
       for(let i = 0; i < currentPage.length; i++){
           time = time + 20;
-          var timer =  setTimeout(function(){
+          timerf =  setTimeout(function(){
                   ui.text.innerHTML= ui.text.innerHTML + currentPage[i] ;
                   if(i === currentPage.length-1){
                     fullText = false;
@@ -149,11 +164,13 @@ function nextPage(mypage){
         }
         next = true;
         memoMusique= mypage[localStorage.getItem('page')].musique;
+        memoAmbience= mypage[localStorage.getItem('page')].ambience;
         chapterUpdate();
         currentPage = mypage[localStorage.getItem('page')].text;
         currentName = mypage[localStorage.getItem('page')].name;
         currentBg = mypage[localStorage.getItem('page')].bg;
         currentMusique = mypage[localStorage.getItem('page')].musique;
+        currentAmbience = mypage[localStorage.getItem('page')].ambience;
         update();//update img/name/
 
       }
@@ -177,6 +194,7 @@ function chapterUpdate(){
     currentName = book.prologue[localStorage.getItem('page')].name;
     currentBg = book.prologue[localStorage.getItem('page')].bg;
     currentMusique = book.prologue[localStorage.getItem('page')].musique;
+    currentAmbience = book.prologue[localStorage.getItem('page')].ambience;
     triggerChapter = book.prologue[localStorage.getItem('page')].goto;
     currentChoice = book.prologue[localStorage.getItem('page')].choice;
     currentChapter = book.prologue;
@@ -187,6 +205,7 @@ function chapterUpdate(){
     currentName = book.chapitre1[localStorage.getItem('page')].name;
     currentBg = book.chapitre1[localStorage.getItem('page')].bg;
     currentMusique = book.chapitre1[localStorage.getItem('page')].musique;
+    currentAmbience = book.chapitre1[localStorage.getItem('page')].ambience;
     triggerChapter = book.chapitre1[localStorage.getItem('page')].goto;
     currentChoice = book.chapitre1[localStorage.getItem('page')].choice;
     currentChapter = book.chapitre1;
@@ -196,6 +215,7 @@ function chapterUpdate(){
     currentName = book.chapitre2[localStorage.getItem('page')].name;
     currentBg = book.chapitre2[localStorage.getItem('page')].bg;
     currentMusique = book.chapitre2[localStorage.getItem('page')].musique;
+    currentAmbience = book.chapitre2[localStorage.getItem('page')].ambience;
     currentChoice = book.chapitre2[localStorage.getItem('page')].choice;
     currentChapter = book.chapitre2;
     break;
@@ -204,6 +224,7 @@ function chapterUpdate(){
     currentName = book.chapitre3[localStorage.getItem('page')].name;
     currentBg = book.chapitre3[localStorage.getItem('page')].bg;
     currentMusique = book.chapitre3[localStorage.getItem('page')].musique;
+    currentAmbience = book.chapitre3[localStorage.getItem('page')].ambience;
     currentChoice = book.chapitre3[localStorage.getItem('page')].choice;
     currentChapter = book.chapitre3;
     break;
@@ -212,6 +233,7 @@ function chapterUpdate(){
     currentName = book.chapitre4[localStorage.getItem('page')].name;
     currentBg = book.chapitre4[localStorage.getItem('page')].bg;
     currentMusique = book.chapitre4[localStorage.getItem('page')].musique;
+    currentAmbience = book.chapitre4[localStorage.getItem('page')].ambience;
     currentChoice = book.chapitre4[localStorage.getItem('page')].choice;
     currentChapter = book.chapitre4;
     break;
@@ -228,7 +250,7 @@ if(currentName === undefined || currentName === undefined || currentName === fal
     ui.name.textContent = currentName + ":";
   }
 //////////////////////////
-if(currentBg === undefined || currentBg === undefined || currentBg=== false){
+if(currentBg === undefined || currentBg=== false){
   ui.bg.setAttribute('src','img/black.jpg');
   }
   else{
@@ -236,20 +258,48 @@ if(currentBg === undefined || currentBg === undefined || currentBg=== false){
   }
 
 //////////////////////////
-if(currentMusique !== memoMusique){
-  ui.musique.audio.setAttribute('src',currentMusique);
-  ui.musique.audio.currentTime = 0;
-  ui.musique.audio.currentTime = 0;
-  ui.musique.audio.play();
-  }
-  else{
-    ui.musique.audio.getAttribute('src',currentMusique);
+
+
+ if(currentMusique !== "" ){
+    memoMusique = currentMusique;
+    ui.musique.audio.setAttribute('src',currentMusique);
+    ui.musique.audio.currentTime = 0;
+    ui.musique.audio.play();
   }
 
+
+  //bug -_-
+  /*if(currentAmbience !== memoAmbience){
+    console.log('ambience different');
+    ui.ambience.audio.setAttribute('src',currentAmbience);
+    ui.ambience.audio.currentTime = 0;
+    ui.ambience.audio.load();
+    ui.ambience.audio.play();
+    }
+    else{
+      ui.ambience.audio.getAttribute('src',currentAmbience);
+    }*/
 }
 
 function trigger(){
   switch(triggerChapter){
+
+    case 'prologue':
+    chapter.index = 0;
+
+    string_page = JSON.stringify(page);
+    localStorage.setItem("page", string_page);
+    localStorage.setItem("page", parseInt(0));
+
+    string_chapter =  JSON.stringify(chapter);
+    localStorage.setItem("chapter", string_chapter);
+
+    indexPage = localStorage.getItem('page');
+    indexChapter = chapter.index;
+    memoChapter = chapter.current[chapter.index];
+    update();
+    break;
+
     case 'chap1':
     chapter.index = 1;
 
@@ -292,7 +342,6 @@ function trigger(){
     for (var i = 0; i < currentChoice.length; i++) {
       if(currentChoice[i] !== undefined){
         poster = true;
-        console.log('la valeur '+ i+ ' n\'est pas undefined')//creer une div
         var newDiv = document.createElement("div");
         newDiv.classList.add('choice-items');
         newDiv.textContent = currentChoice[i];
@@ -314,7 +363,6 @@ function trigger(){
             isPaused = false ;
             next = false;
             resetChoice();
-            console.log('le CHAPITRE 1');
             break;
 
             case "chap2":
@@ -325,7 +373,6 @@ function trigger(){
             isPaused = false ;
             next = false;
             resetChoice();
-            console.log('le CHAPITRE 2');
             break;
 
             case "chap3":
@@ -336,7 +383,6 @@ function trigger(){
             isPaused = false ;
             next = false;
             resetChoice();
-            console.log('le CHAPITRE 3');
             break;
 
             case "chap4":
@@ -347,7 +393,6 @@ function trigger(){
             isPaused = false ;
             next = false;
             resetChoice();
-            console.log('le CHAPITRE 4');
             break;
 
             case "chap5":
@@ -358,7 +403,6 @@ function trigger(){
             isPaused = false ;
             next = false;
             resetChoice();
-            console.log('le CHAPITRE 5');
             break;
 
             case "chap6":
@@ -369,7 +413,6 @@ function trigger(){
             isPaused = false ;
             next = false;
             resetChoice();
-            console.log('le CHAPITRE 6');
             break;
           }
         })
@@ -401,4 +444,5 @@ function choiceUpdate(){
   indexPage = localStorage.getItem('page');
   indexChapter = chapter.index;
   memoChapter = chapter.current[chapter.index];
+
 }
