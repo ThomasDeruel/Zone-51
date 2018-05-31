@@ -57,7 +57,7 @@ var currentChapter =[];
 var currentChoice = [];
 var currentMusique;
 var currentAmbience;
-var currentBg ="";
+var currentBg;
 var poster = false;
 var next = true;
 var isPaused = false;
@@ -146,7 +146,7 @@ function timer(){
       }
     }
     else{
-      ui.text.innerHTML = currentPage;
+      ui.text.textContent = currentPage;
       fullText = false;
     }
 }
@@ -250,12 +250,10 @@ if(currentName === undefined || currentName === undefined || currentName === fal
     ui.name.textContent = currentName + ":";
   }
 //////////////////////////
-if(currentBg === undefined || currentBg=== false){
-  ui.bg.setAttribute('src','img/black.jpg');
-  }
-  else{
+if(currentBg !==""){
   ui.bg.setAttribute('src',currentBg);
   }
+
 
 //////////////////////////
 
