@@ -81,8 +81,8 @@ button{
     height:100%;
     top:0;
     left:0;
-    background:rgb(250,250,250,0.6);
-    background:rgba(250,250,250,0.6);
+    background:rgb(250,250,250,0.9);
+    background:rgba(250,250,250,0.9);
 }
 .on{
     position:absolute;
@@ -132,6 +132,9 @@ button{
     background:#c60f65;
     color:white;
 }
+.quit{
+    margin-bottom:8px;
+}
 .pause-audio{
 
     font-family: 'Righteous', cursive;
@@ -158,7 +161,10 @@ button{
     align-items:center;
 }
 .audio-name{
-    display:inline-block;
+    display:flex;
+    background:white;
+    align-items:center;
+    justify-content: center;
     width:120px;
     height:25px;
     text-align:center;
@@ -305,34 +311,27 @@ input[type=range]:focus::-ms-fill-upper {
   height:auto;
   margin:0 auto;
   z-index:1;
+  transition:all .5s ease;
 }
+
 .characters-one{
   bottom:0;
   left:20%;
-  width:400px;
-  height:700px;
   margin:0 auto;
   transform:translateX(-20%);
-  background:blue;
   transition:all 0.5s ease;
 }
 .characters-two{
   bottom:0;
   left:50%;
-  width:400px;
-  height:700px;
   margin:0 auto;
   transform:translateX(-50%);
-  background:green;
   transition:all 0.5s ease;
 }
 .characters-three{
   bottom:0;
   left:80%;
-  width:400px;
-  height:700px;
   margin:0 auto;
   transform:translateX(-80%);
-  background:red;
   transition:all 0.5s ease;
 }
