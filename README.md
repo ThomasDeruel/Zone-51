@@ -1,41 +1,43 @@
 # Zone 51
 
-Suite à une grand guerre confrontant les humanoïdes, des robots à forme humaine possédant une conscience propre, et les homonculus, des êtres quasi immortels dotés de pouvoirs étranges, la race humaine n'existe plus.
+Par: Thomas Deruel & Laura Crd
 
-1Oans ce sont écoulées après cette attrocitée. L'histoire commence dans un hopital délabré où se trouve n°100, un être mi-humain mi-omonculus doté d'un pouvoir caché, qui se réveil d'un long coma et semble avoir perdu la mémoire.
+Suite Ã  une grand guerre confrontant les humanoÃ¯des, des robots Ã  forme humaine possÃ©dant une conscience propre, et les homonculus, des Ãªtres quasi immortels dotÃ©s de pouvoirs Ã©tranges, la race humaine n'existe plus.
+
+1Oans ce sont Ã©coulÃ©es aprÃ¨s cette attrocitÃ©e. L'histoire commence dans un hopital dÃ©labrÃ© oÃ¹ se trouve nÂ°100, un Ãªtre mi-humain mi-omonculus dotÃ© d'un pouvoir cachÃ©, qui se rÃ©veil d'un long coma et semble avoir perdu la mÃ©moire.
 
 ## personnages
 
-n°100(Kami): Protagoniste principale, a le pouvoir de remonter dans le temps quand il meurt(spoil: il a enfait la faculté de voler les pouvoirs de ses amis homonculus, par ailleurs le pouvoir qu'il a actuellement vient de son collegue n°99 omega)
+nÂ°100(Kami): Protagoniste principale, a le pouvoir de remonter dans le temps quand il meurt(spoil: il a enfait la facultÃ© de voler les pouvoirs de ses amis homonculus, par ailleurs le pouvoir qu'il a actuellement vient de son collegue nÂ°99 omega)
 
-n°66(Masuta): Jeune femme dotant la capacité d'invoquer des sbires à partir de n'importe quelle matiere et caracasse
+nÂ°66(Masuta): Jeune femme dotant la capacitÃ© d'invoquer des sbires Ã  partir de n'importe quelle matiere et caracasse
 
- n°10(Ishi): Jeune femme dotant la capacité de soigner n'importe quelle blessures
+ nÂ°10(Ishi): Jeune femme dotant la capacitÃ© de soigner n'importe quelle blessures
 
- n°09(Hebi): Jeune femme avec les yeux bandée, est capable de transformer en pierre tout ce qu'elle voit
+ nÂ°09(Hebi): Jeune femme avec les yeux bandÃ©e, est capable de transformer en pierre tout ce qu'elle voit
 
- n°08(Kasai): jeune homme dotant de plusieurs brulures, et possédant le pouvoir de controler le feu
+ nÂ°08(Kasai): jeune homme dotant de plusieurs brulures, et possÃ©dant le pouvoir de controler le feu
 
-n°07:(Hiro): un jeune homme habile dotant d'une force surhumaine
+nÂ°07:(Hiro): un jeune homme habile dotant d'une force surhumaine
 
- n°03(Arashi): Jeune homme pouvant alterner l'enveloppe gazeuse
-qui l'entour et ainsi modifier les conditions météorologiques.
+ nÂ°03(Arashi): Jeune homme pouvant alterner l'enveloppe gazeuse
+qui l'entour et ainsi modifier les conditions mÃ©tÃ©orologiques.
 
 ----------------------------------------------------------
-Humanoïde:
+HumanoÃ¯de:
 
 zombie:Robots Rang C, machine taille moyenne, des mangeurs d'homme
 
-alpha: robots ranb B: robot de petite taille mais pouvant tirer de nombreux projectils très puissante pouvant tuer sur le coup un etre humain normal
+alpha: robots ranb B: robot de petite taille mais pouvant tirer de nombreux projectils trÃ¨s puissante pouvant tuer sur le coup un etre humain normal
 
 beta: rang A
 
 omega:
 
-unknown: Adam & Eve: Rang SSS des robots ayant détruitant à eux seul 92% de l'espece humaine
+unknown: Adam & Eve: Rang SSS des robots ayant dÃ©truitant Ã  eux seul 92% de l'espece humaine
 ## trame narrative
 
-On se retrouve en plein milieu d'un desert, des Décombres de bâtiments veillots rampent le sol et des ossements d'humains sont encores présents, on se retrouve dans la peau de Kami(n°100) se réveillant dans un hopital qui semple etre "abandonner" depuis quelques années, et ayant eu juste le temps de réflechir de son long réveil, une voix mystérieuse appelant à l'aide interpela l'esprit du jeune homme.
+On se retrouve en plein milieu d'un desert, des dÃ©combres de bÃ¢timents veillots rampent le sol et des ossements d'humains sont encores prÃ©sents, on se retrouve dans la peau de Kami(nÂ°100) se rÃ©veillant dans un hÃ´pital, qui semple etre "abandonnÃ©" depuis quelques annÃ©es, et ayant eu juste le temps de rÃ©flechir, une voix mystÃ©rieuse appelant Ã  l'aide interpela l'esprit du jeune homme.
 ## code
 
- à voir
+ Ã  voir
