@@ -37,8 +37,8 @@ var page = localStorage.getItem('page');
 var chapter = localStorage.getItem('chapter');
   if (chapter === null) {
     chapter = {
-      index:3,
-      current:['prologue','chap1','La pièce tout au fond','La porte blindée','chap2','Le premier couloir','chap3','chap4','chap5','chap6']
+      index:0,
+      current:['prologue','chap1','La pièce tout au fond','La porte blindée','chap2','Le premier couloir','Un couloir aléatoire','Dans la chambre','chap3','chap4','chap5','chap6']
     };
     var string_chapter = JSON.stringify(chapter);
     localStorage.setItem("chapter", string_chapter);
@@ -106,6 +106,14 @@ var lambience;
       trigger();
       textFluid();
     }
+
+    for (var i = 0; i < indexPage; i++) {
+      if(currentChapter[i].musique !== ""){
+        memo = currentChapter[i].musique;
+        console.log(memo)
+      }
+    }
+    ui.musique.audio.setAttribute('src',memo)
 
 
 /////////////////
@@ -273,16 +281,28 @@ function chapterUpdate(){
     currentChapter = book.chapitre2Choix1;
     break;
 
-    case 'chap3':
-    currentPage = book.chapitre3[localStorage.getItem('page')].text;
-    currentName = book.chapitre3[localStorage.getItem('page')].name;
-    currentBg = book.chapitre3[localStorage.getItem('page')].bg;
-    currentMusique = book.chapitre3[localStorage.getItem('page')].musique;
-    currentAmbience = book.chapitre3[localStorage.getItem('page')].ambience;
-        triggerChapter = book.chapitre3[localStorage.getItem('page')].goto;
-    currentChoice = book.chapitre3[localStorage.getItem('page')].choice;
-    currentCharacters = book.chapitre3[localStorage.getItem('page')].characters;
-    currentChapter = book.chapitre3;
+    case 'Un couloir aléatoire':
+    currentPage = book.chapitre2Choix2[localStorage.getItem('page')].text;
+    currentName = book.chapitre2Choix2[localStorage.getItem('page')].name;
+    currentBg = book.chapitre2Choix2[localStorage.getItem('page')].bg;
+    currentMusique = book.chapitre2Choix2[localStorage.getItem('page')].musique;
+    currentAmbience = book.chapitre2Choix2[localStorage.getItem('page')].ambience;
+    triggerChapter = book.chapitre2Choix2[localStorage.getItem('page')].goto;
+    currentChoice = book.chapitre2Choix2[localStorage.getItem('page')].choice;
+    currentCharacters = book.chapitre2Choix2[localStorage.getItem('page')].characters;
+    currentChapter = book.chapitre2Choix2;
+    break;
+
+    case 'Dans la chambre':
+    currentPage = book.chapitre2Choix3[localStorage.getItem('page')].text;
+    currentName = book.chapitre2Choix3[localStorage.getItem('page')].name;
+    currentBg = book.chapitre2Choix3[localStorage.getItem('page')].bg;
+    currentMusique = book.chapitre2Choix3[localStorage.getItem('page')].musique;
+    currentAmbience = book.chapitre2Choix3[localStorage.getItem('page')].ambience;
+    triggerChapter = book.chapitre2Choix3[localStorage.getItem('page')].goto;
+    currentChoice = book.chapitre2Choix3[localStorage.getItem('page')].choice;
+    currentCharacters = book.chapitre2Choix3[localStorage.getItem('page')].characters;
+    currentChapter = book.chapitre2Choix3;
     break;
 
     case 'chap4':
@@ -317,14 +337,14 @@ if(currentBg !==""){
 //////////////////////////
 
 //sound //
- if(currentMusique !== memoMusique || currentMusique !== undefined){
+ if(currentMusique !== ""){
     ui.musique.audio.setAttribute('src',currentMusique);
     ui.musique.audio.currentTime = 0;
     ui.ambience.audio.load();
     ui.musique.audio.play();
   }
 
-  if(currentAmbience !== memoAmbience || currentAmbience !== undefined){
+  if(currentAmbience !== ""){
     ui.ambience.audio.setAttribute('src',currentAmbience);
     ui.ambience.audio.currentTime = 0;
     ui.ambience.audio.load();
@@ -441,6 +461,28 @@ function trigger(){
     clearAll();
     textFluid();
     break;
+
+    case 'Un couloir aléatoire':
+    chapter.index = 6;
+    choiceUpdate();
+    chapterUpdate();
+    update();
+    isPaused = false ;
+    resetChoice();
+    clearAll();
+    textFluid();
+    break;
+
+    case 'Dans la chambre':
+    chapter.index = 7;
+    choiceUpdate();
+    chapterUpdate();
+    update();
+    isPaused = false ;
+    resetChoice();
+    clearAll();
+    textFluid();
+    break;
   }
   if(currentChoice !== undefined){
     //si j'ai un choix le jeu est en pause
@@ -513,8 +555,18 @@ function trigger(){
             resetChoice();
             break;
 
-            case "chap4":
+            case 'Un couloir aléatoire':
             chapter.index = 6;
+            choiceUpdate();
+            chapterUpdate();
+            update();
+            isPaused = false ;
+            next = false;
+            resetChoice();
+            break;
+
+            case "Dans la chambre":
+            chapter.index = 7;
             choiceUpdate();
             chapterUpdate();
             update();
