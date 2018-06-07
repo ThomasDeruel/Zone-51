@@ -1,6 +1,6 @@
 # Zone 51
 
-Par: Thomas Deruel & Laura Crd
+Par: Thomas Deruel & Laura Cherarad
 
 Suite à une grand guerre confrontant les humanoïdes, des robots à forme humaine possédant une conscience propre, et les homonculus, des êtres quasi immortels dotés de pouvoirs étranges, la race humaine n'existe plus.
 
