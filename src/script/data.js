@@ -12,7 +12,7 @@ var book = {
     //characters:[undefined,"img/characters/infiermiere.png",undefined]
   },
    {
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:"img/prologue/hospital.jpg",
     image:undefined,
@@ -23,7 +23,7 @@ var book = {
     //characters:["img/characters/infiermiere.png","img/characters/infiermiere.png",undefined]
 
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:"img/prologue/hospital.jpg",
     image:undefined,
@@ -34,7 +34,7 @@ var book = {
     characters:[undefined,undefined,undefined]
     /*choice:['chap4','chap5','chap6']*/
   },{
-   musique:undefined,
+   musique:'',
    ambience:undefined,
    bg:'img/prologue/hospital.jpg',
    image:undefined,
@@ -43,7 +43,7 @@ var book = {
    text:"Humm ........",
    name:"Kami"
  },{
-  musique:undefined,
+  musique:'',
   ambience:undefined,
   bg:'img/prologue/hospital.jpg',
   image:undefined,
@@ -53,7 +53,7 @@ var book = {
   name:"Kami"
  },
   {
-  musique:undefined,
+  musique:'',
   ambience:undefined,
   bg:'img/prologue/hospital.jpg',
   image:undefined,
@@ -63,7 +63,7 @@ var book = {
   name:'Kami'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -73,7 +73,7 @@ text:'.........',
 name:'Kami'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -83,7 +83,7 @@ text:'(Mon corps ... ne répond plus ... Que se passe-t-il ?)',
 name:'Kami'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -93,7 +93,7 @@ text:'(Et pourquoi suis-je ligoté sur un lit?)',
 name:'Kami'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -103,7 +103,7 @@ text:'Docteur ! Le patient est reveillé !',
 name:'Inconnu'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -113,7 +113,7 @@ text:'(Docteur ... ?)',
 name:'Kami'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -123,7 +123,7 @@ text:'Administrez lui une dose supplémentaire ...',
 name:'Docteur'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -133,7 +133,7 @@ text:"Nous n'avons que très peu de temps devant nous !",
 name:'Docteur'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -143,7 +143,7 @@ text:"Bien Docteur.",
 name:'Médecin'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -153,7 +153,7 @@ text:"Attendez ... Qui êtes-vous ?",
 name:'Kami'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -163,7 +163,7 @@ text:"Dîtes moi !?",
 name:'Kami'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -173,7 +173,7 @@ text:"Et pourquoi suis-je attaché ?",
 name:'Kami'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -183,7 +183,7 @@ text:"*Soupir* ...",
 name:'Médecin'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -193,7 +193,7 @@ text:"Mieux vaut pas que tu le saches mon garçon !",
 name:'Médecin'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -203,7 +203,7 @@ text:"Le vieux médecin, sort de sa poche une longue seringue et s'approche vers
 name:undefined
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -213,7 +213,7 @@ text:"Non ... Ne vous approchez pas de moi avec ça ... Pitié !!",
 name:'Kami'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital.jpg',
 image:undefined,
@@ -223,7 +223,7 @@ text:"Ghh !!!",
 name:'Kami'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital2.jpg',
 image:undefined,
@@ -233,7 +233,7 @@ text:"...",
 name:'Kami'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital2.jpg',
 image:undefined,
@@ -243,7 +243,7 @@ text:"Le patient Ne va pas tarder à s'endormir",
 name:'Médecin'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital2.jpg',
 image:undefined,
@@ -253,7 +253,7 @@ text:"...",
 name:'Docteur'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital3.jpg',
 image:undefined,
@@ -263,7 +263,7 @@ text:"Je n'arrive toujours pas à croire que l'espèce humaine mise tout sur ce 
 name:'Médecin'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital3.jpg',
 image:undefined,
@@ -273,7 +273,7 @@ text:"C'est incroyable en effet.",
 name:'Docteur'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital3.jpg',
 image:undefined,
@@ -283,7 +283,7 @@ text:"Un être humain compatible à 100% ... C'est du jamais vu.",
 name:'Docteur'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital3.jpg',
 image:undefined,
@@ -293,7 +293,7 @@ text:"Qui aurait pensé qu'un enfant pareil se trouverait parmis les déchets de
 name:'Docteur'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:'img/prologue/hospital4.jpg',
 image:undefined,
@@ -303,7 +303,7 @@ text:"Quelle ironie ... Ca doit être notre punition après tout.",
 name:'Docteur'
 },
 {
-musique:undefined,
+musique:'',
 ambience:'sound/ambiance/siren.mp3',
 bg:'img/prologue/hospital4.jpg',
 image:undefined,
@@ -313,7 +313,7 @@ text:undefined,
 name:undefined
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/black.jpg",
 image:undefined,
@@ -323,7 +323,7 @@ text:"!!!",
 name:'Médecin'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/black.jpg",
 image:undefined,
@@ -333,7 +333,7 @@ text:"C'était quoi ?",
 name:'Médecin'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/black.jpg",
 image:undefined,
@@ -343,7 +343,7 @@ text:" ... Les humanoïdes ...",
 name:'Docteur'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/black.jpg",
 image:undefined,
@@ -353,7 +353,7 @@ text:"Putain !! Même ici !",
 name:'Médecin'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/black.jpg",
 image:undefined,
@@ -363,7 +363,7 @@ text:"Dépéchez-vous, administez lui le serum de N°99.",
 name:'Docteur'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/black.jpg",
 image:undefined,
@@ -394,14 +394,14 @@ name:undefined,
       text:"...",
       name:"Kami"
   },{
-      musique:undefined,
+      musique:'',
       ambience:undefined,
       bg:"img/chap1/checkpoint.jpg",
       image:undefined,
       text:'hummmm',
       name:'Kami'
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:"img/chap1/checkpoint.jpg",
     image:undefined,
@@ -410,7 +410,7 @@ name:undefined,
     text:'Que s\'est-t-il passé ?',
     name:'Kami'
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:"img/chap1/checkpoint.jpg",
     image:undefined,
@@ -419,7 +419,7 @@ name:undefined,
     text:'...',
     name:'Kami'
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:"img/chap1/checkpoint.jpg",
     image:undefined,
@@ -429,7 +429,7 @@ name:undefined,
     name:'Kami'
     //goto:'chap2'
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:"img/chap1/checkpoint.jpg",
     image:undefined,
@@ -439,7 +439,7 @@ name:undefined,
     name:'Kami'
 
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:"img/chap1/checkpoint.jpg",
     image:undefined,
@@ -448,7 +448,7 @@ name:undefined,
     text:'(Je me rappelle juste que j\'étais attaché sur un lit, puis ...)',
     name:'Kami'
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:"img/chap1/checkpoint.jpg",
     image:undefined,
@@ -457,7 +457,7 @@ name:undefined,
     text:'Plus rien ...',
     name:'Kami'
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:"img/chap1/checkpoint.jpg",
     image:undefined,
@@ -466,7 +466,7 @@ name:undefined,
     text:'(Je ne dois pas paniquer ...)',
     name:'Kami'
   },{
-      musique:undefined,
+      musique:'',
       ambience:undefined,
       bg:"img/chap1/checkpoint.jpg",
       image:undefined,
@@ -475,7 +475,7 @@ name:undefined,
       text:'(Il y a sans doute d\'autres individus pas loin d\'ici ...)',
       name:'Kami'
   },{
-      musique:undefined,
+      musique:'',
       ambience:undefined,
       bg:"img/chap1/checkpoint.jpg",
       image:undefined,
@@ -485,7 +485,7 @@ name:undefined,
       name:'Kami'
   },
       {
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:"img/chap1/checkpoint.jpg",
           image:undefined,
@@ -494,7 +494,7 @@ name:undefined,
           text:'...',
           name:'Kami'
       },{
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:"img/chap1/checkpoint.jpg",
           image:undefined,
@@ -504,7 +504,7 @@ name:undefined,
           name:'Kami'
       },
   {
-  musique:undefined,
+  musique:'',
   ambience:undefined,
   bg:"img/chap1/checkpoint.jpg",
   image:undefined,
@@ -514,7 +514,7 @@ name:undefined,
   name:'Kami'
  },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/chap1/checkpoint.jpg",
 image:undefined,
@@ -523,7 +523,7 @@ scene2:undefined,
 text:'(Cela fait combien de temps que je suis ici ?)',
 name:'Kami'
 },{
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/chap1/checkpoint.jpg",
 image:undefined,
@@ -532,7 +532,7 @@ scene2:undefined,
 text:'(Et que sont devenues ces personnes qui étaient là...)',
 name:'Kami'
 },{
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/chap1/checkpoint.jpg",
 image:undefined,
@@ -541,7 +541,7 @@ scene2:undefined,
 text:'(Pour le moment, Je devrais regarder aux alentours. Tout est sans dessus dessous mais je pourrai peut-être trouver des indices ...)',
 name:'Kami'
 },{
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/chap1/checkpoint.jpg",
 image:undefined,
@@ -552,7 +552,7 @@ name:'Kami',
 choice:['La pièce tout au fond','La porte blindée']
 }],
 chapitre1Choix1 : [{
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/chap1/checkpoint.jpg",
 image:undefined,
@@ -561,7 +561,7 @@ scene2:undefined,
 text:'Commençons par la salle tout au fond ...',
 name:'Kami'
 },{
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/black.jpg",
 image:undefined,
@@ -580,7 +580,7 @@ scene2:undefined,
 text:'...',
 name:'Kami'
 },{
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/chap1/baignoire.jpg",
 image:undefined,
@@ -589,7 +589,7 @@ scene2:undefined,
 text:'Ca semble être la salle de bain ...',
 name:'Kami'
 },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:"img/chap1/baignoire.jpg",
     image:undefined,
@@ -607,7 +607,7 @@ name:'Kami'
         text: '(.........)',
         name: 'Kami'
     },{
-    musique:undefined,
+    musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -616,7 +616,7 @@ name:'Kami'
         text:'(Il semble que non)',
         name:'Kami'
 },{
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -625,7 +625,7 @@ name:'Kami'
         text:'(Peut-être que je trouverait de quoi me changer ...)',
         name:'Kami'
     },{
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/black.jpg",
         image:undefined,
@@ -635,7 +635,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -645,7 +645,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -655,7 +655,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -665,7 +665,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -675,7 +675,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -685,7 +685,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -695,7 +695,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -704,7 +704,7 @@ name:'Kami'
         text:'(Il y a plus rien à faire ici, Je ferais mieux de retourner dans la chambre)',
         name:'Kami'
     },{
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/checkpoint.jpg",
         image:undefined,
@@ -714,7 +714,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/checkpoint.jpg",
         image:undefined,
@@ -723,7 +723,7 @@ name:'Kami'
         text:'Il semble que j\'ai vu quelque chose d\'assez surprenant en me réveillant ...',
         name:'Kami'
     },{
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/porte.jpg",
         image:undefined,
@@ -733,7 +733,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/porte.jpg",
         image:undefined,
@@ -743,7 +743,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/porte.jpg",
         image:undefined,
@@ -752,7 +752,7 @@ name:'Kami'
         text:'(Pourquoi mettre en place un tel niveau de sécurité ?)',
         name:'Kami'
     },{
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/porte.jpg",
         image:undefined,
@@ -762,7 +762,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/porte.jpg",
         image:undefined,
@@ -772,7 +772,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/porte.jpg",
         image:undefined,
@@ -782,7 +782,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/porte.jpg",
         image:undefined,
@@ -792,13 +792,13 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/porte.jpg",
         image:undefined,
         scene1:undefined,
         scene2:undefined,
-        text:'(La porte semple être bien fermée, il semble que je peux l\'ouvrir que de ce côté ...)',
+        text:'(La porte semple être bien fermée, apparemment que je peux l\'ouvrir que de ce côté ...)',
         name:'Kami'
     },{
         musique:'',
@@ -810,7 +810,7 @@ name:'Kami'
         text:'(J\'ai tout examiné, je n\'ai plus rien à faire ici ... Je dois me barrer d\'ici, cet endroit est tellement glauque.)',
         name:'Kami'
     },{
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:undefined,
         image:undefined,
@@ -822,7 +822,7 @@ name:'Kami'
     }
 ],
 chapitre1Choix2: [{
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/chap1/checkpoint.jpg",
 image:undefined,
@@ -831,7 +831,7 @@ scene2:undefined,
 text:'Il semble que j\'ai vu quelque chose d\'assez surprenant derrière moi ...',
 name:'Kami'
 },{
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/chap1/porte.jpg",
 image:undefined,
@@ -841,7 +841,7 @@ text:'(Une porte blindée ?)',
 name:'Kami'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/chap1/porte.jpg",
 image:undefined,
@@ -851,7 +851,7 @@ text:'(C\'est quoi ce bordel?)',
 name:'Kami'
 },
 {
-musique:undefined,
+musique:'',
 ambience:undefined,
 bg:"img/chap1/porte.jpg",
 image:undefined,
@@ -860,7 +860,7 @@ scene2:undefined,
 text:'(Pourquoi mettre en place un tel niveau de sécurité ?)',
 name:'Kami'
 },{
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/porte.jpg",
         image:undefined,
@@ -870,7 +870,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/porte.jpg",
         image:undefined,
@@ -880,7 +880,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/porte.jpg",
         image:undefined,
@@ -890,7 +890,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/porte.jpg",
         image:undefined,
@@ -900,17 +900,17 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/porte.jpg",
         image:undefined,
         scene1:undefined,
         scene2:undefined,
-        text:'(La porte semple être bien fermée, il semble que je peux l\'ouvrir que de ce côté ...)',
+        text:'(La porte semple être bien fermée, peut-être que je peux l\'ouvrir que de ce côté ...)',
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/porte.jpg",
         image:undefined,
@@ -919,7 +919,7 @@ name:'Kami'
         text:'(Je devrais d`abord trouver des vêtement de rechange, je ne peux pas me trinbaler avec cette blouse ...)',
         name:'Kami'
     },{
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/checkpoint.jpg",
         image:undefined,
@@ -928,7 +928,7 @@ name:'Kami'
         text:'(Je devrais faire un tour au fond de la salle. Peut-être que je trouverais de quoi me changer ...)',
         name:'Kami'
     },{
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/black.jpg",
         image:undefined,
@@ -938,7 +938,7 @@ name:'Kami'
         name:undefined
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -948,7 +948,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -957,7 +957,7 @@ name:'Kami'
         text:'(Je n`ai pas trop envie de prendre une douche...)',
         name:'Kami'
     },    {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -966,7 +966,7 @@ name:'Kami'
         text:'(Il faut que je trouve des fringues ...)',
         name:'Kami'
     },    {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -975,7 +975,7 @@ name:'Kami'
         text:'(Regardons par là ...)',
         name:'Kami'
     },    {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -984,7 +984,7 @@ name:'Kami'
         text:'(Non rien ...)',
         name:'Kami'
     },    {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -993,7 +993,7 @@ name:'Kami'
         text:'(Par ici ?)',
         name:'Kami'
     },    {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -1002,7 +1002,7 @@ name:'Kami'
         text:'!!!',
         name:'Kami'
     },    {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -1012,7 +1012,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -1022,7 +1022,7 @@ name:'Kami'
         name:'Kami'
     },
     {
-        musique:undefined,
+        musique:'',
         ambience:undefined,
         bg:"img/chap1/baignoire.jpg",
         image:undefined,
@@ -1031,7 +1031,7 @@ name:'Kami'
         text:'(J\'ai tout examiné, je n\'ai plus rien à faire ici ... Je dois me barrer d\'ici, cet endroit est tellement glauque.)',
         name:'Kami'
     },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:undefined,
     image:undefined,
@@ -1044,16 +1044,16 @@ name:'Kami'
 ],
   //CHAPITRE3
   chapitre2 : [{
-    musique:'sound/ambiance/wind.wav',
+    musique:'sound/ambiance/win2.wav',
     ambience:undefined,
     bg:'img/chap1/porte.jpg',
     image:undefined,
     scene1:undefined,
     scene2:undefined,
-    text:'(La poignet de la porte semble être intact, peut-être qu\en la tournant un peu, je pourrai peut être sortir d\'ici)',
+    text:'(La poignet de la porte semble être intact, peut-être qu\'en la tournant un peu, je pourrai peut être sortir d\'ici)',
     name:'Kami'
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:'img/chap1/porte.jpg',
     image:undefined,
@@ -1062,7 +1062,7 @@ name:'Kami'
     text:'gnnnnnn',
     name:'Kami'
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:'img/chap1/porte.jpg',
     image:undefined,
@@ -1071,7 +1071,7 @@ name:'Kami'
     text:'Kufff !!!',
     name:'Kami'
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:'img/chap1/porte.jpg',
     image:undefined,
@@ -1080,7 +1080,7 @@ name:'Kami'
     text:' !!!',
     name:'Kami'
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:'img/chap1/porte.jpg',
     image:undefined,
@@ -1089,7 +1089,7 @@ name:'Kami'
     text:'(Ca bouge ?!!!)',
     name:'Kami'
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:'img/chap1/porte.jpg',
     image:undefined,
@@ -1098,7 +1098,7 @@ name:'Kami'
     text:'(Aller encore un peu et je pourrai sortir de ce trou à rat)',
     name:'Kami'
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:'img/chap1/porte.jpg',
     image:undefined,
@@ -1107,7 +1107,7 @@ name:'Kami'
     text:'Gnnn !',
     name:'Kami'
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:'img/chap1/porte.jpg',
     image:undefined,
@@ -1116,7 +1116,7 @@ name:'Kami'
     text:'(Fiouu, j\'ai réussi)',
     name:'Kami'
   },{
-    musique:undefined,
+    musique:'',
     ambience:undefined,
     bg:'img/chap1/porte.jpg',
     image:undefined,
@@ -1130,21 +1130,21 @@ name:'Kami'
     text:'(Un long couloir hein ?)',
     name:'Kami'
   },{
-      musique:undefined,
+      musique:'',
       ambience:undefined,
       bg:'img/chap1/couloir.jpg',
       image:undefined,
       text:'M...a...man... A..l\'ai....de..',
       name:'Inconnu'
   },{
-      musique:undefined,
+      musique:'',
       ambience:undefined,
       bg:'img/chap1/couloir.jpg',
       image:undefined,
       text:'Cette voix ...',
       name:'Kami'
   },{
-      musique:undefined,
+      musique:'',
       ambience:undefined,
       bg:'img/chap1/couloir.jpg',
       image:undefined,
@@ -1152,14 +1152,14 @@ name:'Kami'
       name:'Kami'
   },
   {
-  musique:undefined,
+  musique:'',
   ambience:undefined,
   bg:'img/chap1/couloir.jpg',
   image:undefined,
   text:'(L\'intensité de la voix est faible, mais la source semble se située au fond de ce couloir ...)',
   name:'Kami'
   },{
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:'img/chap1/couloir.jpg',
           image:undefined,
@@ -1167,14 +1167,14 @@ name:'Kami'
           name:'Kami'
       }
       ,{
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:'img/chap1/couloir.jpg',
           image:undefined,
           text:'(A...l\'ai...de...)',
           name:'Inconnu'
       },{
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:'img/chap1/couloir.jpg',
           image:undefined,
@@ -1182,49 +1182,49 @@ name:'Kami'
           name:'Inconnu'
       },
       {
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:'img/chap1/couloir2.jpg',
           image:undefined,
           text:'...',
           name:'Kami'
       }, {
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:'img/chap1/couloir2.jpg',
           image:undefined,
           text:'(Cette salle ...)',
           name:'Kami'
       }, {
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:'img/chap1/couloir2.jpg',
           image:undefined,
           text:'(On dirait une sorte de garderie ...)',
           name:'Kami'
       },{
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:'img/chap1/couloir2.jpg',
           image:undefined,
           text:'(Tout ces jouets divers et pas un seul enfants en vue ...)',
           name:'Kami'
       },{
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:'img/chap1/couloir2.jpg',
           image:undefined,
           text:'(Tout le monde semble être parti, mais pour quelle raison ...)',
           name:'Kami'
       },{
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:'img/chap1/couloir2.jpg',
           image:undefined,
           text:'(Et pourtant, la voix de tout à l\'heure ...)',
           name:'Kami'
       },{
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:'img/chap1/couloir2.jpg',
           image:undefined,
@@ -1232,7 +1232,7 @@ name:'Kami'
           name:'Kami'
       }
       ,{
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:'img/chap1/couloir2.jpg',
           image:undefined,
@@ -1240,7 +1240,7 @@ name:'Kami'
           name:'Kami'
       }
       ,{
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:'img/chap1/couloir2.jpg',
           image:undefined,
@@ -1248,7 +1248,7 @@ name:'Kami'
           name:'Kami'
       }
       ,{
-          musique:undefined,
+          musique:'',
           ambience:undefined,
           bg:'img/chap1/couloir2.jpg',
           image:undefined,
@@ -1274,7 +1274,7 @@ name:'Kami'
           ambience:"",
           bg:'img/chap1/couloir2.jpg',
           image:undefined,
-          text:'Aidez... Kami ...',
+          text:'Aidez... Moi ...',
           name:'Inconnu'
       },{
           musique:'',
@@ -1299,14 +1299,14 @@ name:'Kami'
           text:'Ne vous en faites plus je suis là !!!',
           name:'Kami'
       },{
-          musique:'',
+          musique:undefined,
           ambience:"",
           bg:'img/chap1/couloir3.jpg',
           image:undefined,
           text:'....',
           name:'Kami'
       },{
-          musique:'',
+          musique:undefined,
           ambience:"",
           bg:'img/chap1/couloir3.jpg',
           image:undefined,
@@ -1341,7 +1341,7 @@ name:'Kami'
           text:'!!!!',
           name:'Kami'
       },{
-          musique:'',
+          musique:'sound/musique/purchase.mp3',
           ambience:"",
           bg:'img/chap1/couloir4.jpg',
           image:undefined,
@@ -1601,7 +1601,7 @@ name:'Kami'
         text:'NOON !! ARRE...',
         name:'Kami'
     },{
-        musique:'',
+        musique:undefined,
         ambience:"sound/ambiance/blood.mp3",
         bg:'img/chap1/bedrooms_4.jpg',
         image:undefined,
@@ -1640,7 +1640,7 @@ name:'Kami'
         ambience:"",
         bg:'img/black.jpg',
         image:undefined,
-        text:'Reveil toi ...',
+        text:'Réveille toi ...',
         name:'Inconnu'
     },{
         musique:'',
@@ -1686,8 +1686,552 @@ name:'Kami'
         text:'...',
         name:'Kami',
         goto:'chap1'
-    }]
+    }],
 
+    chapitre2Choix2:[{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/couloir.jpg',
+      image:undefined,
+      text:'Je n\'ai pas de temps à perdre, prenons n\'importe quelle pièce !!',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/chambre.jpg',
+      image:undefined,
+      text:'... Une chambre ?',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/chambre.jpg',
+      image:undefined,
+      text:'(Je pourrais me cacher sous le lit !!)',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/chambre.jpg',
+      image:undefined,
+      text:'(Vu ça taille, pas possible qu\'il me repaire !!)',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/chambre.jpg',
+      image:undefined,
+      text:'Papa...Maman...',
+      name:'Zombie'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/chambre.jpg',
+      image:undefined,
+      text:'(Il Arrive !!)',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/chambre.jpg',
+      image:undefined,
+      text:'...',
+      name:'Zombie',
+      characters:["img/chap1/zombie3.png",undefined,undefined]
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/chambre.jpg',
+      image:undefined,
+      text:'...',
+      name:'Kami',
+      characters:[undefined,undefined,"img/chap1/zombie3.png"]
+    },{
+        musique:'',
+        ambience:"",
+        bg:'img/chap1/chambre.jpg',
+        image:undefined,
+        text:'Maman...Où... Es-tu ?',
+        name:'Zombie',
+        characters:[undefined,undefined,"img/chap1/zombie2.png"]
+    },{
+        musique:'',
+        ambience:"",
+        bg:'img/chap1/chambre.jpg',
+        image:undefined,
+        text:'...',
+        name:'Kami',
+        characters:["img/chap1/zombie2.png",undefined,undefined]
+    },{
+      musique:undefined,
+      ambience:"",
+      bg:'img/chap1/chambre.jpg',
+      image:undefined,
+      text:'(Il s\'en va)',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/chambre.jpg',
+      image:undefined,
+      text:'(Ouff ... Quelle chance ! Moi qui croyait que c\était la...)',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/chambre.jpg',
+      image:undefined,
+      text:'!!!!',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/chambre.jpg',
+      image:undefined,
+      text:'(Quelque chose tiens mes pieds !!!)',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/chambre.jpg',
+      image:undefined,
+      text:'Kami, hésitant pendant quelque secondes, se retourne d\'un coup sec',
+      name:undefined
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/dead_01.jpg',
+      text:'Qu...Qu\'est-ce que c\'est !!',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/dead_02.jpg',
+      text:'........................',
+      name:'Inconnu'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/dead_02.jpg',
+      text:'!!!',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/dead_03.jpg',
+      text:'*ROAR*',
+      name:'Zombie'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/dead_03.jpg',
+      text:'Faim ...',
+      name:'Zombie'
+    },{
+      musique:'',
+      ambience:"sound/ambiance/blood.mp3",
+      bg:'img/chap1/dead_04.jpg',
+      text:'Kuff !!',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/dead_04.jpg',
+      text:'ARRRGG ... Mon bras !!',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"sound/ambiance/blood.mp3",
+      bg:'img/chap1/dead_04.jpg',
+      text:'.......',
+      name:'Zombie'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/dead_04.jpg',
+      text:'AAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRRRRRG',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/dead_04.jpg',
+      text:'Après s\'être fait arraché un bout de bras, le robot immobilise le jeune Kami avec ses longs bras épais.',
+      name:undefined
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/dead_04.jpg',
+      text:'(Non,non,non !! Je ne veux pas mourir !)',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"sound/ambiance/blood.mp3",
+      bg:'img/chap1/dead_05.jpg',
+      text:'...',
+      name:'Zombie'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/dead_05.jpg',
+      text:'ARRRRRRGG',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/chap1/dead_06.jpg',
+      text:'Pitié non !!!',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"sound/ambiance/blood.mp3",
+      bg:'img/chap1/dead_06.jpg',
+      text:'Cette être malefique découpa, membre par membre, le jeune Kami ne laissant place à une énorme marrée de sang',
+      name:undefined
+    },{
+      musique:'',
+      ambience:"sound/ambiance/blood.mp3",
+      bg:'img/chap1/dead_06.jpg',
+      text:'ARRRRRGGGG',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"sound/ambiance/blood.mp3",
+      bg:'img/chap1/dead_06.jpg',
+      text:'AAAAAAAAAAAAAAAAAAAAAAAAAAARGG',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"sound/ambiance/blood.mp3",
+      bg:'img/chap1/dead_06.jpg',
+      text:'ARRG .......',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"sound/ambiance/blood.mp3",
+      bg:'img/chap1/dead_06.jpg',
+      text:'...........................',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"sound/ambiance/blood.mp3",
+      bg:'img/chap1/dead_07.jpg',
+      text:'(je...n\'ai plus la force d\'huler ...)',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"sound/ambiance/blood.mp3",
+      bg:'img/chap1/dead_07.jpg',
+      text:'(Je...crois...que.............)',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"sound/ambiance/blood.mp3",
+      bg:'img/chap1/dead_07.jpg',
+      text:'(C\'est .... Vraiment...)',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:undefined,
+      bg:'img/chap1/dead_07.jpg',
+      text:'(La fin .............)',
+      name:'Kami'
+    },{
+      musique:'',
+      ambience:"",
+      bg:'img/black.jpg',
+      text:'............',
+      name:'Kami'
+    },{
+        musique:'',
+        ambience:"",
+        bg:'img/black.jpg',
+        image:undefined,
+        text:'Réveille toi ...',
+        name:'Inconnu'
+    },{
+        musique:'',
+        ambience:"",
+        bg:'img/black.jpg',
+        image:undefined,
+        text:'Ton heure n\'est pas encore venu ...',
+        name:'Inconnu'
+    },{
+        musique:'',
+        ambience:"",
+        bg:'img/black.jpg',
+        image:undefined,
+        text:'..........',
+        name:'Moi'
+    },{
+        musique:'',
+        ambience:"",
+        bg:'img/black.jpg',
+        image:undefined,
+        text:'Qui es-tu ? ...',
+        name:'Moi'
+    }
+    ,{
+        musique:'',
+        ambience:"",
+        bg:'img/black.jpg',
+        image:undefined,
+        text:'Tu ne te rappelles pas ...',
+        name:'Inconnu'
+    },{
+        musique:'',
+        ambience:"",
+        bg:'img/black.jpg',
+        image:undefined,
+        text:'Mon nom est ...',
+        name:'Inconnu'
+    },{
+        musique:'',
+        ambience:"",
+        bg:'img/chap1/checkpoint.jpg',
+        image:undefined,
+        text:'...',
+        name:'Kami',
+        goto:'chap1'}],
+
+        chapitre2Choix3:[{
+          musique:'',
+          ambience:"",
+          bg:'img/chap1/couloir.jpg',
+          image:undefined,
+          text:'Dans la chambre !!',
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:"",
+          bg:'img/chap1/couloir.jpg',
+          image:undefined,
+          text:'Avec cette porte blindée, je pourrai m\'en sortir indemn.' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:"",
+          bg:'img/chap1/couloir.jpg',
+          image:undefined,
+          text:'Avec cette porte blindée, je pourrai m\'en sortir indemn.' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:"",
+          bg:'img/chap1/checkpoint.jpg',
+          image:undefined,
+          text:'Pfiou, j\'en peux plus !!' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:"",
+          bg:'img/chap1/checkpoint.jpg',
+          image:undefined,
+          text:'...' ,
+          name:'Zombie'
+        },{
+          musique:'',
+          ambience:"",
+          bg:'img/chap1/checkpoint.jpg',
+          image:undefined,
+          text:'(Vite la Porte !!)' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:"",
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'(Gnnnnnn)' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:"",
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'(Gnnnnnn)' ,
+          name:'Kami'
+        },{
+          musique:undefined,
+          ambience:"",
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'!!!!!' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:"",
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'Pfiou... c\'était moins une' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:"sound/ambiance/hitdoor.wav",
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'Ah !!' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:"sound/ambiance/hitdoor.wav",
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'...' ,
+          name:'Zombie'
+        },{
+          musique:'',
+          ambience:"sound/ambiance/hitdoor.wav",
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'Lâche l\'affaire !!' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:"sound/ambiance/hitdoor.wav",
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'Tu ne m\'aura pas !!' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:undefined,
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'...' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'Je pense qu\'il est parti ...' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'Je devrais peut-être me poser un petit peu ...' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'Je devrais...peut-être... me poser un petit peu ...' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'(Vu mon état, je ne suis incapable de faire quoi que ce soit)' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'(Quelle était cette chose ? Je n\'en ai jamais vu ...)' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'(Et puis pourquoi suis-je seul dans cet endroit ?)' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'(Comment suis-je arrivé ici ?)' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'(Tout le monde m\'aurait-t-il abandonné ?)' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'(Serais-je le seul surviant ?)' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'(Quelqu\'un voulait me protéger de ces choses ???)' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'(Dans quel but ?)' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'(Je ne comprends pas ...)' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'...' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/porte.jpg',
+          image:undefined,
+          text:'(Pour le moment, je dois me reposer ...)' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/checkpoint.jpg',
+          image:undefined,
+          text:'(Je me sens incapable de dormir paisiblement à cause de cette chose ...)' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+              bg:'img/chap1/checkpoint.jpg',
+          image:undefined,
+          text:'...' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/chap1/checkpoint.jpg',
+          image:undefined,
+          text:'(fermons au moins les yeux ... Peut-être que cela attenuera mon stress ...)' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/black.jpg',
+          image:undefined,
+          text:'...' ,
+          name:'Kami'
+        },{
+          musique:'',
+          ambience:'',
+          bg:'img/black.jpg',
+          image:undefined,
+          text:'Fin de la démo, j\'espère que cela vous aura plus. En tout cas on espère continuer cette histoire et découvrir comment le jeune Kami s\'en sortira, et résoudra les mystères qui l\'entourent.' ,
+          name:undefined
+        }]
 };
 //console.log("chapitre 1 currentpage[0]:"+book.chapitre1[0]+". currentchapter: "+book.chapitre1)
 //console.log(book.prologue)
